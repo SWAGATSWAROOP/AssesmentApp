@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom'
 
 const navigation = [
-  { name: 'Dashboard', href: '/dashboard' },
-  { name: 'Assesment-Form', href: '/assesmentform' },
+  { name: 'Assesment-Form', href: '/' },
   { name: 'Patient Details', href: '/patientdetails' }
 ]
 
