@@ -4,13 +4,11 @@ import AssesmentForm from './components/assesmentformview'
 const App = () => {
   return (
     <>
-      {/* <Router>
+      <Router>
         <Routes>
-          <Route path="/assesmentform" element={<AssesmentForm />} />
-          <Route />
+          <Route path="/" element={<AssesmentForm />} />
         </Routes>
-      </Router> */}
-      <AssesmentForm />
+      </Router>
     </>
   )
 }
