@@ -185,6 +185,8 @@ const GeneralInfo = () => {
     }))
   }
 
+  const generatePDF = () => {}
+
   const submit = () => {}
 
   return (
@@ -1812,13 +1814,20 @@ const GeneralInfo = () => {
             })
           }
         />
-        <div className="flex justify-center">
+        <div className="flex justify-around">
           <button
             type="submit"
             className="bg-green-500 text-white p-4 hover:scale-110 mt-8 rounded-md"
             onClick={() => submit()}
           >
             Submit
+          </button>
+          <button
+            type="submit"
+            className="bg-green-500 text-white p-4 hover:scale-110 mt-8 rounded-md"
+            onClick={() => generatePDF()}
+          >
+            Generate Pdf
           </button>
         </div>
       </form>
